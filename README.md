@@ -23,12 +23,12 @@
 
 ## <a name="Usage">Useage</a>
 * Open `lab4.py` in IDE or console
-* Click `Run ` or write python `lab4.py`
+* Click `Run ` or write in console python `lab4.py`
 
 # lab 5 CSP
 
 ## <a name="Usage">Useage</a>
-* Open `test.py` in in IDE or console
+* Open `test.py` in IDE or console
 * Click `Run Release`or write in console python `test.py`
 
 # lab 6 Pacman+
