@@ -1,1 +1,1 @@
-# lab_1_IntelectSystems
+# lab_Evhenyi_Petrenko_IntelectSystems
