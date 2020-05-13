@@ -22,9 +22,4 @@ $ cd pacman
 * From the menu `Test > Run > All Tests`
 * Click `Start`
 
-## <a name="Shots">Screen Shots</a>
-[![Screenshot](https://raw.githubusercontent.com/adrianeyre/pacman/master/images/screenshot1.png)](https://raw.githubusercontent.com/adrianeyre/pacman/master/images/screenshot1.png "Game View")
 
-[![Screenshot](https://raw.githubusercontent.com/adrianeyre/pacman/master/images/screenshot2.png)](https://raw.githubusercontent.com/adrianeyre/pacman/master/images/screenshot2.png "Game View")
-
-[![Screenshot](https://raw.githubusercontent.com/adrianeyre/pacman/master/images/screenshot3.png)](https://raw.githubusercontent.com/adrianeyre/pacman/master/images/screenshot3.png "Game View")
