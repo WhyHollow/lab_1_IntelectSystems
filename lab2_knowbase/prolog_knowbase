@@ -1,0 +1,28 @@
+man('Ivan').
+man('Sanya').
+man('Petro').
+woman('Ann').
+woman('Oksana').
+woman('Kate').
+parent('Ann','Ivan').
+parent('Ann','Sanya').
+parent('Petro','Ivan').
+parent('Petro','Sanya').
+parent('Ivan', 'Kate').
+parent('Oksana', 'Kate').
+parent('Inna','Oksana').
+parent('Ira','Tadei').
+marriage('Oksana','Ivan').
+marriage('Ann','Petro').
+
+father(X,Y):-man(X), parent(X,Y).
+mother(X,Y):-woman(X),parent(X,Y).
+husband_mother(X,Y):-mother(X,Z),marriage(Y,Z),woman(Y).
+wife_mother(X,Y):-mother(X,Z),marriage(Y,Z),man(Y).
+brother(X,Y):-man(X),parent(Z,X),parent(Z,Y),not(X=Y).
+sister(X,Y):-woman(X),parent(Z,X),parent(Z,Y),not(X=Y).
+uncle(X,Y):-man(X),brother(X,Z),parent(Z,Y).
+aunt(X,Y):-woman(X),brother(X,Z),parent(Z,Y).
+grandpa(X,Y):-man(X),parent(X,Z),parent(Z,Y). 
+grandma(X,Y):-woman(X),parent(X,Z),parent(Z,Y).
+cousin(X,Y):-(grandma(Z,X),grandma(Z,Y));(grandpa(Z,Y),grandpa(Z,X)).
